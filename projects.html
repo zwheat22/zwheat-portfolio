@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Zach Wheat</title>
+  <meta name="description" content="Projects by Zach Wheat.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="site-title" href="index.html">Zach Wheat</a>
+      <nav class="site-nav">
+        <a href="index.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Projects</h1>
+    <p class="lede">A selection of things I've built and worked on.</p>
+
+    <div class="placeholder-note">
+      This is a placeholder layout — each card below is a template.
+      Duplicate a <code>&lt;div class="project-card"&gt;</code> block in
+      the HTML for each real project, then swap in the title,
+      description, tags, and link. Delete this note once you've
+      filled the page in.
+    </div>
+
+    <div class="project-grid">
+
+      <!-- PROJECT CARD TEMPLATE — copy this block for each project -->
+      <div class="project-card">
+        <h3>Project Title</h3>
+        <p>
+          One or two sentences: what it does, what problem it solves,
+          and what you built it with.
+        </p>
+        <a class="project-link" href="#" target="_blank" rel="noopener">
+          View project &rarr;
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Title</h3>
+        <p>
+          One or two sentences: what it does, what problem it solves,
+          and what you built it with.
+        </p>
+        <a class="project-link" href="#" target="_blank" rel="noopener">
+          View project &rarr;
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Title</h3>
+        <p>
+          One or two sentences: what it does, what problem it solves,
+          and what you built it with.
+        </p>
+        <a class="project-link" href="#" target="_blank" rel="noopener">
+          View project &rarr;
+        </a>
+      </div>
+
+      <!-- Add more cards as needed, or delete extras -->
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-contact">
+        <a href="mailto:zach@zwheat.com">zach@zwheat.com</a>
+      </div>
+      <div class="footer-copy">&copy; <span id="year"></span> Zach Wheat</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  // The name of your Worker/project on Cloudflare. This also becomes
+  // part of the free preview URL: zwheat-portfolio.<your-subdomain>.workers.dev
+  "name": "zwheat-portfolio",
+
+  // Keep this at today's date when you first deploy — no need to
+  // change it again after that.
+  "compatibility_date": "2026-09-29",
+
+  // Serve everything in this folder as static files. No Worker
+  // script needed for a plain static site.
+  "assets": {
+    "directory": "./"
+  }
+}
