@@ -1,8 +1,0 @@
-Replace this file's neighbor with your real resume, named exactly:
-
-    resume.pdf
-
-So the final path is: assets/resume.pdf
-
-Once it's there, delete this text file (optional — it's harmless if you
-leave it, it's just not linked from anywhere on the site).
